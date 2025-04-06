@@ -20,7 +20,7 @@
             <a href="cadastrarMulta.html" class="menu-item">
                 <span><br>Cadastrar<br>Multa</span>
             </a>
-            <a class="menu-item">
+            <a href="cadastrarAviso.html" class="menu-item">
                 <span>Cadastrar<br>Aviso</span>
             </a>
             <a href="verificarMultas.html" class="menu-item">
@@ -29,13 +29,39 @@
             <a href="verificarAvisos.html" class="menu-item">
                 <span>Verificar<br>Avisos</span>
             </a>
-            <a href="conta.html" class="menu-item active">
+            <a class="menu-item active">
                 <span>Conta</span>
             </a>
         </div>
 
         <div class="flex-grow-1 overflow-auto" style="height: 100vh;">
-            
+            <div class="container d-flex justify-content-center align-items-center h-100">
+                <div class="account-box p-4 rounded">
+                    <div class="text-center">
+                        <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="" width="300"
+                            class="mb-3">
+                        <h5 class="mb-1">Nome do agente</h5>
+                        <p class="mb-4">Código do agente</p>
+                    </div>
+                    <form>
+                        <div class="mb-3 position-relative">
+                            <label class="form-label">E-mail</label>
+                            <input type="email" class="form-control pe-5" placeholder="email@example.com" disabled>
+                            <span class="position-absolute top-50 end-0 translate-middle-y me-2">
+                            </span>
+                        </div>
+                        <div class="mb-4 position-relative">
+                            <label class="form-label">Senha</label>
+                            <input type="password" class="form-control pe-5" placeholder="senhaagente123" disabled>
+                            <span class="position-absolute top-50 end-0 translate-middle-y me-2">
+                            </span>
+                        </div>
+                        <div class="text-end">
+                            <a type="button" href="../index.html" class="btn btn-danger px-4">Sair</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
 
 
