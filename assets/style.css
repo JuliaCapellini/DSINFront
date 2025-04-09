@@ -75,3 +75,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.removb{
+    text-decoration: none;
+    color: white;
+}
